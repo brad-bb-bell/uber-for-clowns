@@ -1,0 +1,9 @@
+@orders.map do |order|
+  {
+    order_id: order.id,
+    placed_by: order.user.name,
+    clown_name: order.clown.name,
+    created_at: order.created_at,
+    updated_at: order.updated_at,
+  }
+end

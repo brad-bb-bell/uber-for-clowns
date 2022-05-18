@@ -1,0 +1,5 @@
+### Orders Index
+http://localhost:3000/orders.json
+
+### Orders Show
+http://localhost:3000/orders/2.json
